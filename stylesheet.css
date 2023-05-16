@@ -1,0 +1,12 @@
+/*Set background to gray*/
+body{
+    background-color: darkgray;
+}
+/*Center and align the content*/
+div {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: baseline;
+}
