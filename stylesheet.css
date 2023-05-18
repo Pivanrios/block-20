@@ -1,12 +1,25 @@
 /*Set background to gray*/
-body{
-    background-color: darkgray;
-}
-/*Center and align the content*/
-div {
+body{background-color: darkgray;}
+
+div {/*Center and align the content*/
     display: flex;
     flex-direction: column;
     align-content: center;
     flex-wrap: wrap;
     align-items: baseline;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+
+/*List*/
+ul{/*change background to identify our users*/
+    background-color: white;
+    width: 40%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+}li{/*Separate our elements*/
+    padding: 2px 20px;
+    list-style: none;
+}
+
